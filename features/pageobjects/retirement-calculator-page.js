@@ -9,13 +9,10 @@ class RetirementCalculatorPage extends Page {
             case "retirement age":
                 return $('#retirement-age');
             case "current annual income":
-                browser.pause(10000)
                 return $('#current-income');
             case "current spouse annual income":
-                browser.pause(10000)
                 return $('#spouse-income');
             case "current retirement savings":
-                browser.pause(10000)
                 return $('#current-total-savings');
             case "current retirement contribution":
                 return $('#current-annual-savings');

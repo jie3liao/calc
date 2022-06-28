@@ -19,7 +19,6 @@ When('I type {int} in {string} field', async (value, fieldName) => {
 When('I select radio button {string} for {string}', async (value, groupName) => {
     const radioButton = await RetirementCalculatorPage.getRadioButton(value, groupName);
     await radioButton.click(); 
-    await browser.pause(1000);
     await browser.execute("window.scrollBy(0, 250)");
 });
 

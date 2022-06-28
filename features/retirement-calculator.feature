@@ -1,17 +1,5 @@
 Feature: Securian Retirement Calculator
 
-#   Given I am on the "retirement calculator" page of Securian
-#    When I type 40 in "current age" field
-#	 And I type 68 in "retirement age" field
-#	 And I type 100000 in "current annual income" field
-#	 And I type 75000 in "current spouse annual income" field
-#	 And I type 500000 in "current retirement savings" field
-#	 And I type 10 in "current retirement contribution" field
-#	 And I type 1 in "annual retirement contribution increase" field
-#	 And I select radio button "No" for "social security income"
-#	 And I click "Calculate" button
-#   Then Verify that "Email my results" button is present
-
   Scenario: As a user, I would like to check if I am saving enough for my retirement with social security override
     Given I am on the "retirement calculator" page of Securian
     When I type 40 in "current age" field
